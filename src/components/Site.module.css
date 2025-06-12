@@ -1,0 +1,34 @@
+.navbar{
+    width: 73%;
+    min-height: 90vh;
+    padding: 3% 5%;
+    position: absolute;
+    top: 10vh;
+    left: 27%;
+    z-index: 7;
+    box-shadow: 1px 1px 5px rgb(202, 202, 202) ;
+    /* background: rgb(255, 255, 255); */
+    text-align: justify;
+
+    
+    background: url("https://slidebazaar.com/wp-content/uploads/2022/05/Black-and-White-Background-Presentation-templates-SB02298.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+.dark{
+    width: 73%;
+    min-height: 90vh;
+    padding:3% 5%;
+    position: absolute;
+    top: 10vh;
+    left: 27%;
+    z-index: 7;
+    box-shadow: 1px 1px 5px rgb(202, 202, 202) ;
+    background-color: #6b6b6b;        
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}

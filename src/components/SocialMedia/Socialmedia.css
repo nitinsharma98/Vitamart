@@ -1,0 +1,159 @@
+.postshow {
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    padding: 0rem;
+    box-shadow: 0.5rem 0.5rem 1rem grey;
+    margin: auto;
+    background-color: rgb(202, 202, 202);
+    width: 50%;
+    padding: 1rem;
+}
+
+.postshow:hover{
+    background-color: rgb(160, 160, 160);
+}
+
+.postshow .username{
+    font-size: large;
+    font-weight: bold;
+}
+
+.postshow .date,.liked {
+    color: grey;
+    font-size: small;
+}
+
+.postshow img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.postshow .postbtns{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.1rem;
+    border-top: 0.1rem solid rgb(145, 145, 145);
+}
+
+.postshow .postbtns button{
+    background: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    width: 33.3%;
+    height: 2rem;
+    border-right: 0.1rem rgb(170, 170, 170);
+}
+
+.postshow .badges .badge {
+    color: white;
+    background-color: rgb(189, 62, 53);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.postshow .badges{
+    display: flex;
+    gap: 2rem;
+}
+
+#Image , #About , #Tags{
+    width: 90%;
+    padding: 1rem;
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(212, 212, 212);
+}
+
+.npform{
+    border: 0.1rem solid grey;
+    padding: 2rem;   
+}
+
+.npform div button{
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem;
+    padding: 2px;
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.showwasteimage{
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 1%;
+    border: 0.1rem solid rgb(184, 184, 184);
+}
+
+/* .npform div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.npform div div {
+    display: block;
+    width: 48%;
+ }                       --------newpost234 */
+
+ .chatinput {
+    position: fixed;
+    bottom: 2rem;
+    z-index: 5;
+    width: 60vw;
+ }
+ .chatinput input,button {
+    width: 54vw;
+    border-radius: 10px;
+    height: 40px;
+    padding: 2px;
+    border: 0.1rem solid grey;
+ }
+
+ .chatinput button {
+    width: 5vw;
+    background-color: rgb(167, 167, 167);
+    margin: auto 1vw auto 0;
+ }
+
+
+
+
+ .chatbox{
+    max-height: 60vh;
+    overflow-y: scroll;
+    width: 60vw;
+    padding: 1rem;
+ }
+
+ .singlechatu{
+    display: flex;
+    padding: 1px;
+    width: 56vw;
+    background-color: rgb(190, 190, 190);
+    margin: 2px;
+    border-radius: 10px;
+    /* flex-direction: row; */
+ }
+
+ .singlechato{
+    display: flex;
+    padding: 1px;
+    width: 56vw;
+    background-color: rgb(136, 136, 136);
+    margin: 2px;
+    flex-direction: row-reverse;
+    border-radius: 10px;  
+ }
+
+ .uho .ush{
+    text-align: right;
+ }
+
+ .chatimg img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 4px;
+ }

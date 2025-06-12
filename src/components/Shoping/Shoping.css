@@ -1,0 +1,60 @@
+.spitmbox{
+    border: groove rgb(228, 228, 228) .1rem ;
+    text-align: center;
+    width: 22%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+.spitmbox:hover{
+    background-color: rgb(184, 184, 184);
+}
+
+.flx{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.spitmbox img{
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.spadd{
+    color: #2c2929;
+    background-color: rgb(209, 255, 209);
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px  rgb(209, 255, 209);
+    border-radius: 5px;
+    width: 100%;
+    height: 2rem;
+}
+
+.spdel{
+    color: #2c2929;
+    background-color: rgb(255, 209, 209);
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px  rgb(209, 255, 209);
+    border-radius: 5px;
+    width: 100%;
+    height: 2rem;
+}
+
+.price{
+    font-size: small;
+}
+
+.oldprice {
+    color: grey;
+    font-size:smaller;
+    text-decoration: line-through;
+}
+
+.discount{
+    color: rgb(207, 102, 84);
+}
+

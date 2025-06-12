@@ -1,0 +1,9 @@
+.navicon{
+    color: rgb(255, 114, 114);
+    font-weight: 600;
+    font-size:2rem;
+    box-shadow: 0.1px 0.1px 4px red;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-right: 5px;
+}

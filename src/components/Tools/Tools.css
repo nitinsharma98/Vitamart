@@ -1,0 +1,113 @@
+/* calculator */
+
+.calculator {
+    border: 0.5px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.display{
+    width: 200px;
+    font-size: 25px;
+    padding: 2%;
+}
+
+.buttoonContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calbtn{
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+
+
+
+/* clock  ++ */  
+
+.cntr{
+    text-align: center;
+    max-width: 300px;
+    border: 1px groove #2c2929;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+
+
+/* todo */
+
+.td{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border: 1px groove #2c2929;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tda input{
+    border-radius: 6px;
+    border: 0.5 px solid  #2c2929 ;
+}
+
+.tdab{
+    margin: 1rem;
+    width: 200px;
+    height: 35px;
+}
+
+.tdaa{
+    width: 310px;
+    height: 35px;
+    padding: 2px;
+}
+
+.tdadd{
+    color: #2c2929;
+    background-color: rgb(209, 255, 209);
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px  rgb(209, 255, 209);
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 2rem;
+}
+
+.tdlist{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.1px solid rgb(219, 219, 219) ;;
+}
+
+.tdtd{
+    width: 180px;
+    border: 0 0.1px 0 0.1px solid rgb(0, 0, 0);
+}
+
+.tdlist button {
+    color: #2c2929;
+    background-color: rgb(255, 218, 209);
+    border: 1px solid white;
+    box-shadow: 1px 1px 2px  rgb(255, 209, 209);
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 2rem;
+    padding: 2px;
+    font-size:x-large;
+}
+
+.emptytd{
+    font-size: xx-large;
+    color: red;
+    height: 10rem;
+}

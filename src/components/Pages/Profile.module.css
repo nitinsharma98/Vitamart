@@ -1,0 +1,22 @@
+.profbox{
+    margin-top: 10vh;
+    box-shadow: 1px 1px 3px black;
+    padding: 4vh 5%;
+    background: url("https://slidebazaar.com/wp-content/uploads/2022/05/Black-and-White-Background-Presentation-templates-SB02298.jpg");
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+.prof{
+    min-height: 95vh;
+    text-align: center;
+    margin: auto;
+    width: 55%;
+}
+
+.profbox img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid red;
+}

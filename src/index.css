@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.container.dark{               
+    background-color: #6b6b6b;
+}
+
+a.active{
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+a.active .navicon{
+    color: rgb(255, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: #383838;
+}
+
+li{
+    padding-left: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}

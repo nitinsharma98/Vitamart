@@ -1,0 +1,81 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(230, 230, 230);
+    padding: 15px 3%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    box-shadow: 3px 3px 5px rgb(184, 184, 184) ;
+}
+
+.logo{
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.flx{
+    display: flex;
+}
+
+.searchbox{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}
+
+.searchicon{
+    height: 1.5rem;
+}
+
+.searchbox input{
+    padding: 5px;
+    background-color: transparent;
+    border: .1px solid rgb(182, 182, 182);
+    outline: 0;
+    max-width: 200px;
+    border-radius: 20px;
+    color: rgb(107, 0, 0);
+}
+
+input::placeholder{
+    color: rgb(102, 58, 58);
+}
+
+li{
+    list-style: none;
+    margin: auto 10px;
+}
+
+.toggleIcon{
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.dark{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(124, 124, 124);
+    padding: 15px 3%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 5px rgb(59, 59, 59) ;
+}
+
+ul.flx{
+    background-color: rgb(175, 175, 175);
+    box-shadow: 2px 2px 5px rgb(68, 68, 68);
+    opacity: 0.6;
+    border-radius: 25px;
+    gap: 20px;
+}
+
